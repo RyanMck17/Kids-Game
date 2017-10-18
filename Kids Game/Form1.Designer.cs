@@ -52,6 +52,7 @@
             this.richTextBox2.Size = new System.Drawing.Size(392, 67);
             this.richTextBox2.TabIndex = 0;
             this.richTextBox2.Text = "Interactive Quiz";
+            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
             // textBox1
             // 
@@ -118,7 +119,7 @@
             this.pictureBox7.Image = global::Kids_Game.Properties.Resources.ComputingNQ;
             this.pictureBox7.Location = new System.Drawing.Point(12, 359);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(263, 220);
+            this.pictureBox7.Size = new System.Drawing.Size(275, 220);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 3;
             this.pictureBox7.TabStop = false;

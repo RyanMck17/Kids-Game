@@ -64,8 +64,10 @@ namespace Kids_Game
 
         }
 
-        
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
 
+        }
     }
     
 
