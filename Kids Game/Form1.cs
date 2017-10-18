@@ -46,6 +46,19 @@ namespace Kids_Game
         {
 
         }
+
+        private void btnExitQuiz_Click(object sender, EventArgs e)
+        {
+            //Dialog box to check if you have clicked in error or not
+
+
+
+
+
+
+
+        }
+
     }
     
 
