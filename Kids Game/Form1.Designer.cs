@@ -76,7 +76,7 @@
             "IT",
             "History ",
             "Sports"});
-            this.comboBox1.Location = new System.Drawing.Point(484, 318);
+            this.comboBox1.Location = new System.Drawing.Point(508, 309);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 6;
@@ -106,9 +106,9 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::Kids_Game.Properties.Resources.history;
-            this.pictureBox8.Location = new System.Drawing.Point(762, 401);
+            this.pictureBox8.Location = new System.Drawing.Point(738, 359);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(263, 178);
+            this.pictureBox8.Size = new System.Drawing.Size(287, 220);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 4;
             this.pictureBox8.TabStop = false;
@@ -116,9 +116,9 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Kids_Game.Properties.Resources.ComputingNQ;
-            this.pictureBox7.Location = new System.Drawing.Point(12, 401);
+            this.pictureBox7.Location = new System.Drawing.Point(12, 359);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(263, 178);
+            this.pictureBox7.Size = new System.Drawing.Size(263, 220);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 3;
             this.pictureBox7.TabStop = false;
@@ -126,9 +126,9 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Kids_Game.Properties.Resources._91182416_gettyimages_601890476;
-            this.pictureBox6.Location = new System.Drawing.Point(762, 12);
+            this.pictureBox6.Location = new System.Drawing.Point(738, 12);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(263, 230);
+            this.pictureBox6.Size = new System.Drawing.Size(287, 230);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
