@@ -41,5 +41,24 @@ namespace Kids_Game
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            {
+                //Dialog box to check if you have clicked in error or not
+                DialogResult result =
+                    MessageBox.Show("Are you sure you want to exit the Quiz?", "Exit Quiz",
+                    MessageBoxButtons.OKCancel,
+                    MessageBoxIcon.Warning);
+                if (result.Equals(DialogResult.OK))
+                {
+                    Application.Exit();
+                }
+                else
+                {
+                    //Do nothing
+                }
+            }
+        }
     }
 }
