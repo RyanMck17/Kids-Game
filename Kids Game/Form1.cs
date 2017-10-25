@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Kids_Game
 {
-    public partial class Form1 : Form
+    public partial class frmQuiz : Form
     {
-        public Form1()
+        public frmQuiz()
         {
             InitializeComponent();
         }
@@ -68,7 +68,13 @@ namespace Kids_Game
         {
 
         }
-    }
-    
 
+        private void btnStartQuiz_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+    }
 }

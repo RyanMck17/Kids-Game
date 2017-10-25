@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Football.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Football.Designer.cs">
+      <DependentUpon>Football.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +59,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Football.resx">
+      <DependentUpon>Football.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,6 +90,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Images\Arsenal-v-Manchester-City-Premier-League.jpg" />
     <Content Include="Images\ComputingNQ.jpeg" />
     <Content Include="Images\history.png" />
     <Content Include="Images\pyramid.jpg" />
