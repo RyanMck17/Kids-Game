@@ -71,7 +71,7 @@ namespace Kids_Game
 
         private void btnStartQuiz_Click(object sender, EventArgs e)
         {
-
+     
 
 
         }
@@ -82,14 +82,27 @@ namespace Kids_Game
             {
                 Globals.selectedTheme = cboThemes.SelectedItem.ToString();
                 this.Hide();
-                frmQuiz qFrm = new frmQuiz();
+                Football qFrm = new Football();
                 qFrm.Show();
+
 
             }
             else
             {
-                lblError.text = "first select a quiz theme!";
+                lblError.Text = "first select a quiz theme!";
             }
+
+        }
+
+        private void frmQuiz_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmHelp frm = new frmHelp();
+            frm.Show();
         }
     }
 }

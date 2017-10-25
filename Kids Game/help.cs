@@ -31,5 +31,12 @@ namespace Kids_Game
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmHelp.ActiveForm.Close();
+        }
+
+        
     }
 }
