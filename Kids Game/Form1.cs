@@ -76,5 +76,20 @@ namespace Kids_Game
 
         }
 
+        private void btnStartQuiz_Click_1(object sender, EventArgs e)
+        {
+            if (cboThemes.SelectedItem != null)
+            {
+                Globals.selectedTheme = cboThemes.SelectedItem.ToString();
+                this.Hide();
+                frmQuiz qFrm = new frmQuiz();
+                qFrm.Show();
+
+            }
+            else
+            {
+                lblError.text = "first select a quiz theme!";
+            }
+        }
     }
 }
