@@ -47,7 +47,7 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.BackColor = System.Drawing.Color.Yellow;
+            this.richTextBox2.BackColor = System.Drawing.Color.PaleGreen;
             this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox2.Location = new System.Drawing.Point(313, 111);
             this.richTextBox2.Name = "richTextBox2";
@@ -58,7 +58,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Yellow;
+            this.textBox1.BackColor = System.Drawing.Color.SpringGreen;
             this.textBox1.CausesValidation = false;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(328, 300);
