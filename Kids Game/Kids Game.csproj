@@ -104,6 +104,7 @@
     <Content Include="Images\ComputingNQ.jpeg" />
     <Content Include="Images\history.png" />
     <Content Include="Images\pyramid.jpg" />
+    <Content Include="Images\The_Battle_of_the_Somme_film_image1.jpg" />
     <Content Include="Images\_91182416_gettyimages-601890476.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

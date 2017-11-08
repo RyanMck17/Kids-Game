@@ -87,13 +87,10 @@ namespace Kids_Game
             //answer
             qaHistoryArray[0, 6] = "1 July 1916";
 
-
-
-
-
-
+            
             return qaHistoryArray;
         }
+        
 
         private void button4_Click(object sender, EventArgs e)
         {
