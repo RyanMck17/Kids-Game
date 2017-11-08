@@ -48,6 +48,45 @@ namespace Kids_Game
             //answer
             qaHistoryArray[0, 6] = "poseidon";
 
+            // Second Question 
+            //Question
+            qaHistoryArray[1, 0] = "what was the date that Hitler Died";
+            //multiple choice
+            qaHistoryArray[1, 1] = "30 Apr 1945";
+            qaHistoryArray[1, 2] = "25 Apr 1945";
+            qaHistoryArray[1, 3] = "10 Apr 1945";
+            qaHistoryArray[1, 4] = "1 Apr 1945";
+            //picture
+            qaHistoryArray[0, 5] = "hitler";
+            //answer
+            qaHistoryArray[0, 6] = "30 Apr 1945";
+
+            // third question 
+            //Question
+            qaHistoryArray[2, 0] = "when was the company 'Apple' founded ";
+            //multiple choice
+            qaHistoryArray[2, 1] = "30 Apr 1945";
+            qaHistoryArray[2, 2] = "june 1, 1976";
+            qaHistoryArray[2, 3] = "April 1, 1976";
+            qaHistoryArray[2, 4] = "1 Apr 1945";
+            //picture
+            qaHistoryArray[0, 5] = "apple";
+            //answer
+            qaHistoryArray[0, 6] = "April 1, 1976";
+
+            // forth question 
+            //Question
+            qaHistoryArray[3, 0] = "when was the battle of the somme";
+            //multiple choice
+            qaHistoryArray[3, 1] = "1 July 1916";
+            qaHistoryArray[3, 2] = "june 1, 1976";
+            qaHistoryArray[3, 3] = "2 July 1916";
+            qaHistoryArray[3, 4] = "7 Apr 1945";
+            //picture
+            qaHistoryArray[0, 5] = "somme";
+            //answer
+            qaHistoryArray[0, 6] = "1 July 1916";
+
 
 
 
