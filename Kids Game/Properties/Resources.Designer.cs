@@ -73,6 +73,16 @@ namespace Kids_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap clash_of_clans {
+            get {
+                object obj = ResourceManager.GetObject("clash of clans", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ComputingNQ {
             get {
                 object obj = ResourceManager.GetObject("ComputingNQ", resourceCulture);
@@ -83,9 +93,29 @@ namespace Kids_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fortnite {
+            get {
+                object obj = ResourceManager.GetObject("Fortnite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap history {
             get {
                 object obj = ResourceManager.GetObject("history", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logan_paul {
+            get {
+                object obj = ResourceManager.GetObject("logan paul", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
