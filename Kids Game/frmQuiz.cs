@@ -118,5 +118,20 @@ namespace Kids_Game
             frmHelp frm = new frmHelp();
             frm.Show();
         }
+
+        private void frmQuiz_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+        }
+
+        private void Mainform_FormClosed(object sender, FormClosedEventArgs e)
+
+        {
+
+            //exit application when form is closed
+
+            Application.Exit();
+
+        }
     }
 }
