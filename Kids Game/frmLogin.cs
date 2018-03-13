@@ -55,7 +55,10 @@ namespace Kids_Game
                 // Do nothing
             }
         }
+
+    private void button2_Click(object sender, EventArgs e)
+{
+
+}
     }
 }
-
-       

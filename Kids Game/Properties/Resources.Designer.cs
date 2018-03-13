@@ -63,6 +63,16 @@ namespace Kids_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _200px_Paul_Pogba_2017 {
+            get {
+                object obj = ResourceManager.GetObject("200px-Paul_Pogba_2017", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _91182416_gettyimages_601890476 {
             get {
                 object obj = ResourceManager.GetObject("_91182416_gettyimages_601890476", resourceCulture);
@@ -93,6 +103,16 @@ namespace Kids_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap figure_2 {
+            get {
+                object obj = ResourceManager.GetObject("figure-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fortnite {
             get {
                 object obj = ResourceManager.GetObject("Fortnite", resourceCulture);
@@ -116,6 +136,16 @@ namespace Kids_Game.Properties {
         internal static System.Drawing.Bitmap logan_paul {
             get {
                 object obj = ResourceManager.GetObject("logan paul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap player_image_ronaldo {
+            get {
+                object obj = ResourceManager.GetObject("player image ronaldo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

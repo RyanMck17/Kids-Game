@@ -35,16 +35,16 @@
             this.button2 = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
-            this.picUserAvatar = new System.Windows.Forms.PictureBox();
-            this.picUserAvatar1 = new System.Windows.Forms.PictureBox();
-            this.picUserAvatar2 = new System.Windows.Forms.PictureBox();
-            this.picUserAvatar3 = new System.Windows.Forms.PictureBox();
             this.chkPassword = new System.Windows.Forms.CheckBox();
             this.buttonExit = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar2)).BeginInit();
+            this.picUserAvatar3 = new System.Windows.Forms.PictureBox();
+            this.picUserAvatar2 = new System.Windows.Forms.PictureBox();
+            this.picUserAvatar1 = new System.Windows.Forms.PictureBox();
+            this.picUserAvatar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -63,9 +63,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(9, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 29);
+            this.label2.Size = new System.Drawing.Size(130, 29);
             this.label2.TabIndex = 1;
-            this.label2.Text = "First name ";
+            this.label2.Text = "User name";
             // 
             // label3
             // 
@@ -95,6 +95,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtName
             // 
@@ -110,38 +111,6 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(183, 20);
             this.txtPassword.TabIndex = 1;
-            // 
-            // picUserAvatar
-            // 
-            this.picUserAvatar.Location = new System.Drawing.Point(270, 90);
-            this.picUserAvatar.Name = "picUserAvatar";
-            this.picUserAvatar.Size = new System.Drawing.Size(116, 103);
-            this.picUserAvatar.TabIndex = 8;
-            this.picUserAvatar.TabStop = false;
-            // 
-            // picUserAvatar1
-            // 
-            this.picUserAvatar1.Location = new System.Drawing.Point(421, 90);
-            this.picUserAvatar1.Name = "picUserAvatar1";
-            this.picUserAvatar1.Size = new System.Drawing.Size(116, 103);
-            this.picUserAvatar1.TabIndex = 9;
-            this.picUserAvatar1.TabStop = false;
-            // 
-            // picUserAvatar2
-            // 
-            this.picUserAvatar2.Location = new System.Drawing.Point(270, 226);
-            this.picUserAvatar2.Name = "picUserAvatar2";
-            this.picUserAvatar2.Size = new System.Drawing.Size(116, 103);
-            this.picUserAvatar2.TabIndex = 10;
-            this.picUserAvatar2.TabStop = false;
-            // 
-            // picUserAvatar3
-            // 
-            this.picUserAvatar3.Location = new System.Drawing.Point(421, 226);
-            this.picUserAvatar3.Name = "picUserAvatar3";
-            this.picUserAvatar3.Size = new System.Drawing.Size(116, 103);
-            this.picUserAvatar3.TabIndex = 11;
-            this.picUserAvatar3.TabStop = false;
             // 
             // chkPassword
             // 
@@ -164,6 +133,44 @@
             this.buttonExit.UseVisualStyleBackColor = true;
             this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
+            // picUserAvatar3
+            // 
+            this.picUserAvatar3.Location = new System.Drawing.Point(421, 226);
+            this.picUserAvatar3.Name = "picUserAvatar3";
+            this.picUserAvatar3.Size = new System.Drawing.Size(116, 103);
+            this.picUserAvatar3.TabIndex = 11;
+            this.picUserAvatar3.TabStop = false;
+            // 
+            // picUserAvatar2
+            // 
+            this.picUserAvatar2.Image = global::Kids_Game.Properties.Resources.figure_2;
+            this.picUserAvatar2.Location = new System.Drawing.Point(270, 226);
+            this.picUserAvatar2.Name = "picUserAvatar2";
+            this.picUserAvatar2.Size = new System.Drawing.Size(116, 103);
+            this.picUserAvatar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picUserAvatar2.TabIndex = 10;
+            this.picUserAvatar2.TabStop = false;
+            // 
+            // picUserAvatar1
+            // 
+            this.picUserAvatar1.Image = global::Kids_Game.Properties.Resources._200px_Paul_Pogba_2017;
+            this.picUserAvatar1.Location = new System.Drawing.Point(421, 90);
+            this.picUserAvatar1.Name = "picUserAvatar1";
+            this.picUserAvatar1.Size = new System.Drawing.Size(116, 103);
+            this.picUserAvatar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picUserAvatar1.TabIndex = 9;
+            this.picUserAvatar1.TabStop = false;
+            // 
+            // picUserAvatar
+            // 
+            this.picUserAvatar.Image = global::Kids_Game.Properties.Resources.player_image_ronaldo;
+            this.picUserAvatar.Location = new System.Drawing.Point(270, 90);
+            this.picUserAvatar.Name = "picUserAvatar";
+            this.picUserAvatar.Size = new System.Drawing.Size(116, 103);
+            this.picUserAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picUserAvatar.TabIndex = 8;
+            this.picUserAvatar.TabStop = false;
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -185,10 +192,10 @@
             this.Name = "frmLogin";
             this.Text = "frmLogin";
             this.Load += new System.EventHandler(this.frmLogin_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
