@@ -61,9 +61,12 @@ namespace Kids_Game
             string user, pass;
             user = txtName.Text;
             pass = txtPassword.Text;
-            if(user=="admin"&& pass=="password")
+            if(user=="admin"&& pass=="Password")
             {
                 MessageBox.Show("successful");
+                frmQuiz mf = new frmQuiz();
+                mf.Show();
+                this.Hide();
             }
             else
             {
