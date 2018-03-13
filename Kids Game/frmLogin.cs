@@ -31,11 +31,11 @@ namespace Kids_Game
         {
             if (chkPassword.Checked==true)
             {
-                txtPassword.PasswordChar = '\0';
+                pwdtxtbox.PasswordChar = '\0';
             }
             else
             {
-                txtPassword.PasswordChar = '*';
+                pwdtxtbox.PasswordChar = '*';
             }
         }
 
