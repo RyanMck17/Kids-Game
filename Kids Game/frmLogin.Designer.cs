@@ -32,8 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.nametxtbox = new System.Windows.Forms.TextBox();
-            this.pwdtxtbox = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.chkPassword = new System.Windows.Forms.CheckBox();
             this.buttonExit = new System.Windows.Forms.Button();
             this.picUserAvatar3 = new System.Windows.Forms.PictureBox();
@@ -87,20 +87,20 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button2_Click);
             // 
-            // nametxtbox
+            // txtName
             // 
-            this.nametxtbox.Location = new System.Drawing.Point(14, 138);
-            this.nametxtbox.Name = "nametxtbox";
-            this.nametxtbox.Size = new System.Drawing.Size(183, 20);
-            this.nametxtbox.TabIndex = 0;
+            this.txtName.Location = new System.Drawing.Point(14, 138);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(183, 20);
+            this.txtName.TabIndex = 0;
             // 
-            // pwdtxtbox
+            // txtPassword
             // 
-            this.pwdtxtbox.Location = new System.Drawing.Point(14, 291);
-            this.pwdtxtbox.Name = "pwdtxtbox";
-            this.pwdtxtbox.PasswordChar = '*';
-            this.pwdtxtbox.Size = new System.Drawing.Size(183, 20);
-            this.pwdtxtbox.TabIndex = 1;
+            this.txtPassword.Location = new System.Drawing.Point(14, 291);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(183, 20);
+            this.txtPassword.TabIndex = 1;
             // 
             // chkPassword
             // 
@@ -172,8 +172,8 @@
             this.Controls.Add(this.picUserAvatar2);
             this.Controls.Add(this.picUserAvatar1);
             this.Controls.Add(this.picUserAvatar);
-            this.Controls.Add(this.pwdtxtbox);
-            this.Controls.Add(this.nametxtbox);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -196,8 +196,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox nametxtbox;
-        private System.Windows.Forms.TextBox pwdtxtbox;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.PictureBox picUserAvatar;
         private System.Windows.Forms.PictureBox picUserAvatar1;
         private System.Windows.Forms.PictureBox picUserAvatar2;

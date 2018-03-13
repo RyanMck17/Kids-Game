@@ -31,11 +31,11 @@ namespace Kids_Game
         {
             if (chkPassword.Checked==true)
             {
-                pwdtxtbox.PasswordChar = '\0';
+                txtPassword.PasswordChar = '\0';
             }
             else
             {
-                pwdtxtbox.PasswordChar = '*';
+                txtPassword.PasswordChar = '*';
             }
         }
 
@@ -58,7 +58,17 @@ namespace Kids_Game
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            string user, pass;
+            user = txtName.Text;
+            pass = txtPassword.Text;
+            if(user=="admin"&& pass=="password")
+            {
+                MessageBox.Show("successful");
+            }
+            else
+            {
+                MessageBox.Show("error");
+            }
 
         }
     }
