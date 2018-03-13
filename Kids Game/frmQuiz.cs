@@ -133,5 +133,10 @@ namespace Kids_Game
             Application.Exit();
 
         }
+
+        public static implicit operator frmQuiz(frmLogin v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

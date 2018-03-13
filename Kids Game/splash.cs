@@ -48,7 +48,7 @@ namespace Kids_Game
 
             //display mainform
 
-            frmQuiz mf = new frmQuiz();
+            frmLogin mf = new frmLogin();
 
             mf.Show();
 
