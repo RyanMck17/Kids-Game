@@ -85,7 +85,7 @@
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn3.Location = new System.Drawing.Point(349, 325);
+            this.btn3.Location = new System.Drawing.Point(430, 374);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(250, 61);
             this.btn3.TabIndex = 4;
