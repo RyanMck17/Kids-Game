@@ -45,11 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Football.cs">
+    <Compile Include="ClassLibrary\Player.cs" />
+    <Compile Include="ClassLibrary\Question.cs" />
+    <Compile Include="frmQuiz.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Football.Designer.cs">
-      <DependentUpon>Football.cs</DependentUpon>
+    <Compile Include="frmQuiz.Designer.cs">
+      <DependentUpon>frmQuiz.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -57,11 +59,11 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmQuiz.cs">
+    <Compile Include="frmMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmQuiz.Designer.cs">
-      <DependentUpon>frmQuiz.cs</DependentUpon>
+    <Compile Include="frmMainMenu.Designer.cs">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="globals class.cs" />
     <Compile Include="help.cs">
@@ -78,14 +80,14 @@
     <Compile Include="splash.Designer.cs">
       <DependentUpon>splash.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Football.resx">
-      <DependentUpon>Football.cs</DependentUpon>
+    <EmbeddedResource Include="frmQuiz.resx">
+      <DependentUpon>frmQuiz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmQuiz.resx">
-      <DependentUpon>frmQuiz.cs</DependentUpon>
+    <EmbeddedResource Include="frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="help.resx">
       <DependentUpon>help.cs</DependentUpon>
